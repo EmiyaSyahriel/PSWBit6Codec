@@ -18,6 +18,9 @@ Add your package name to the script and then you can call the function in the ob
 
 ### JavaScript _(Browser Compatible)_
 Include the script into your page and call the function in the object:
+```html
+<SCRIPT src="PSWBit6Codec.js"></SCRIPT>
+```
 ```js
   PSWBit6Codec.encode("PSWBit6Codec"); // result : "TEMWPfetMdMoYFUc"
   PSWBit6Codec.decode("QVui^VES^VEh\fee[B@`"); // result : "EmiyaSyahriel"
